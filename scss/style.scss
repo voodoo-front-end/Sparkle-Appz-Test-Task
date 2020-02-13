@@ -1,0 +1,127 @@
+$width: 100%;
+$family_Varela: "Varela Round", sans-serif;
+$family_Montserrat: "Montserrat", sans-serif;
+$family_Archivo: "Archivo Black", sans-serif;
+$family_Poppins: "Poppins", sans-serif;
+
+a:hover {
+  text-decoration: none;
+}
+/* Container */
+.container {
+  max-width: 1340px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+/*Header*/
+.header {
+  border-bottom: 1px solid #dcdcdc;
+}
+.header_inner {
+  padding-top: 10px;
+  height: 95px;
+  display: flex;
+  vertical-align: top;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_contact {
+  width: 1300px;
+  height: 42px;
+  margin: 0 auto;
+}
+.header_contact:before {
+  content: "";
+  display: block;
+  height: 50px;
+  width: 100%;
+  background: #d1d1d3;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+.li_header {
+  display: inline-block;
+}
+ul.contacts {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+.contacts a {
+  font-size: 14px;
+  font-family: $family_Varela;
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.header_contact {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/*Nav*/
+.nav {
+  font-size: 14px;
+  font-family: $family_Varela;
+  text-transform: uppercase;
+}
+.nav_link {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 14px;
+  position: relative;
+  color: #3a3a3a;
+  text-decoration: none;
+  transition: opacity 2s linear;
+  font-weight: bold;
+}
+.nav_link:hover {
+  text-decoration: none;
+  color: #2355da;
+}
+.nav_link.active:after {
+  opacity: 1;
+}
+.nav_link.active {
+  color: #2355da;
+}
+i {
+  padding-left: 3px;
+}
+
+/*Button*/
+.btn_info {
+  border-radius: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px !important ;
+  color: #2355da;
+  border: 2px solid #2355da !important;
+  line-height: 3.2em;
+}
+.btn_call {
+  border-radius: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px !important;
+  color: #4de55c;
+  border: 2px solid #4de55c !important;
+  line-height: 3.2em;
+}
+.btn_info:hover {
+  color: white;
+  background: #2355da;
+}
+.btn_call:hover {
+  color: white;
+  background: #4de55c;
+}
