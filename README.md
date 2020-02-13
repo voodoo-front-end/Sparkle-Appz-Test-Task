@@ -1,2 +1,2 @@
-# Sparkle-Appz-Test-Task
+# Vlad Khomenko
 Tesk Task
