@@ -25,6 +25,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: $family_Poppins;
   margin: 0;
 }
 /* Container */
@@ -164,4 +165,80 @@ i {
     font-size: 40px;
     font-family: $family_Montserrat;
   }
+}
+/*Section We Love*/
+.section--welove {
+  background-color: #f9fafd;
+}
+.with_content {
+  padding: 50px 0;
+}
+.section_inner {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.section_heading {
+  width: 100%;
+  margin: 0 0 22.4px;
+  h3 {
+    text-align: center;
+    font-size: 50px;
+    font-family: $family_Montserrat;
+  }
+}
+.section_text {
+  p {
+    font-family: $family_Montserrat;
+    text-align: center;
+  }
+}
+/*Button About Us*/
+.button_about {
+  padding-top: 70px;
+}
+.btn_about {
+  font-family: $family_Montserrat;
+  fill: #fff;
+  color: #fff;
+  background-color: #3425f4;
+  border-radius: 50px;
+  padding: 15px 50px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fff;
+  box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.16);
+  font-size: 16px;
+}
+.btn_about:hover {
+  color: #3425f4;
+  background: #fff;
+  border: #3425f4 solid 1px;
+}
+/*Section--how_we*/
+.section--how_we {
+  width: 100%;
+  height: 290px;
+  background: url(../img/blue_img-2.png) no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+.section_head {
+  width: 100%;
+  padding: 69px 0 21px;
+
+  h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: $family_Archivo;
+  }
+}
+.text_how_we {
+  width: 1200px;
+  text-align: center;
+  color: #ffffff;
+  line-height: 1.8;
 }
