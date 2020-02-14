@@ -146,3 +146,32 @@ i {
 .btn_call:hover {
   color: white;
   background: #4de55c; }
+
+/*Section*/
+.section_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.device {
+  width: 50%;
+  padding: 10px; }
+
+.device_img {
+  padding: 45px; }
+
+.section_title {
+  width: 50%;
+  vertical-align: middle;
+  padding: 10px; }
+  .section_title p {
+    padding-top: 23%;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif; }

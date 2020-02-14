@@ -139,3 +139,29 @@ i {
   color: white;
   background: #4de55c;
 }
+/*Section*/
+
+.section_inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.device {
+  width: 50%;
+  padding: 10px;
+}
+.device_img {
+  padding: 45px;
+}
+.section_title {
+  width: 50%;
+  vertical-align: middle;
+  padding: 10px;
+  p {
+    padding-top: 23%;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 40px;
+    font-family: $family_Montserrat;
+  }
+}
