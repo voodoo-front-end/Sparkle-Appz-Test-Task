@@ -25,7 +25,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $family_Poppins;
   margin: 0;
 }
 /* Container */
@@ -241,4 +240,67 @@ i {
   text-align: center;
   color: #ffffff;
   line-height: 1.8;
+}
+/*Services*/
+.section--services {
+  padding: 75px 0;
+}
+.services_suptitle {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  h2 {
+    font-size: 42px;
+    font-family: $family_Poppins;
+    font-weight: 700;
+  }
+}
+.services {
+  display: flex;
+  padding: 25px 0 0;
+}
+.services_item {
+  flex: 1 1 0;
+  padding-left: 70px;
+  margin: 20px;
+  padding-right: 10px;
+  position: relative;
+}
+.services_icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.services_title {
+  margin: 0 0 20px;
+  h3 {
+    font-size: 22px;
+    font-family: $family_Varela;
+  }
+}
+.services_text {
+  color: #545454;
+}
+/*Section_partner*/
+.section_partner {
+  background: #f9fafd;
+  padding: 75px 0;
+}
+.partner_title {
+  display: flex;
+  justify-content: center;
+  h3 {
+    font-size: 42px;
+    font-family: $family_Poppins;
+  }
+}
+.partner {
+  display: flex;
+  justify-content: center;
+}
+.partner_item {
+  padding-top: 25px;
+  flex: 1 1 1 1 0;
+  justify-content: space-around;
 }

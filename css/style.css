@@ -20,7 +20,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
   margin: 0; }
 
 /* Container */
@@ -252,3 +251,82 @@ i {
   text-align: center;
   color: #ffffff;
   line-height: 1.8; }
+
+/*Services*/
+.section--services {
+  padding: 75px 0; }
+
+.services_suptitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%; }
+  .services_suptitle h2 {
+    font-size: 42px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700; }
+
+.services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 25px 0 0; }
+
+.services_item {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 0px;
+  flex: 1 1 0;
+  padding-left: 70px;
+  margin: 20px;
+  padding-right: 10px;
+  position: relative; }
+
+.services_icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1; }
+
+.services_title {
+  margin: 0 0 20px; }
+  .services_title h3 {
+    font-size: 22px;
+    font-family: "Varela Round", sans-serif; }
+
+.services_text {
+  color: #545454; }
+
+/*Section_partner*/
+.section_partner {
+  background: #f9fafd;
+  padding: 75px 0; }
+
+.partner_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .partner_title h3 {
+    font-size: 42px;
+    font-family: "Poppins", sans-serif; }
+
+.partner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.partner_item {
+  padding-top: 25px;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 1 1 0;
+  flex: 1 1 1 1 0;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
