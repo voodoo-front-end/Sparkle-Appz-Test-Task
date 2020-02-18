@@ -299,6 +299,12 @@ i {
 .services_text {
   color: #545454; }
 
+.link_services {
+  color: #2355da; }
+
+.link_services:hover {
+  color: #545454; }
+
 /*Section_partner*/
 .section_partner {
   background: #f9fafd;
@@ -520,7 +526,8 @@ i {
     text-align: center;
     font-size: 21px;
     font-family: "Varela Round", sans-serif;
-    margin: 0 0 20px; }
+    margin: 0 0 20px;
+    font-weight: 700; }
   .follow_item p {
     text-align: center;
     color: #7a7a7a;
@@ -548,7 +555,6 @@ i {
   margin-right: auto;
   padding-bottom: 15px; }
 
-/*Row*/
 .follow_inner--row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -562,3 +568,190 @@ i {
     width: 33.3%;
     -webkit-box-shadow: none;
     box-shadow: none; }
+
+/*Top Ranking*/
+.ranking_title {
+  padding: 75px 0 0; }
+  .ranking_title h3 {
+    font-size: 42px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 100%;
+    text-align: center; }
+
+.ranking_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 20px 75px; }
+
+.ranking_item {
+  width: 25%;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 10px; }
+
+/*Reviews*/
+.section_reviews {
+  padding: 50px 0;
+  background: #2355da;
+  width: 100%; }
+
+.reviews {
+  background: #fff;
+  padding: 30px 0;
+  text-align: center; }
+
+.reviews_photo img {
+  border-radius: 45px; }
+
+.reviews_title h3 {
+  font-size: 42px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  color: #ffffff; }
+
+.reviews_text p {
+  margin: 10px 0 20px;
+  color: #808080; }
+
+.reviews_author {
+  color: #333333;
+  text-transform: uppercase; }
+
+.technology {
+  margin: 0 0 15px;
+  color: #777777; }
+
+.technology:before {
+  content: "";
+  width: 30px;
+  display: block;
+  margin: 10px auto;
+  border: 1px solid #d3d3d3; }
+
+/*Keys*/
+.section_keys {
+  padding: 75px 0; }
+
+.keys_suptitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%; }
+  .keys_suptitle h2 {
+    font-size: 42px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700; }
+
+.keys_subtitle {
+  text-align: center;
+  padding: 20px 0 0;
+  margin: 0 0 22.4px; }
+
+.keys {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 25px 0 0; }
+
+.keys_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.case_item {
+  width: 30%;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 0px;
+  flex: 1 1 0;
+  padding: 10px;
+  margin: 10px;
+  position: relative; }
+
+.keys_item {
+  padding-left: 85px; }
+
+.keys_icon {
+  padding-top: 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start; }
+
+.keys_title h3 {
+  font-size: 21px;
+  font-family: "Varela Round", sans-serif;
+  margin: 0 0 20px;
+  font-weight: 700;
+  line-height: 1.6; }
+
+.keys_text {
+  color: #7a7a7a; }
+
+/*Industries*/
+.section_industries {
+  padding: 75px 0; }
+
+.industries {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center; }
+
+.industries_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  padding-top: 20px; }
+
+.industries_item {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 1 1 0;
+  flex: 1 1 1 1 0;
+  background-color: #f9fafd;
+  padding: 20px;
+  margin: 5px;
+  width: 100%; }
+
+.industries_item:hover {
+  background: #afafb2;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 0.3s; }
+
+.industries_suptitle h3 {
+  font-size: 42px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px;
+  width: 100%;
+  text-align: center; }
+
+.industries_subtitle {
+  padding: 20px 0 0;
+  margin: 0 0 22.4px; }
+  .industries_subtitle h4 {
+    font-size: 14px;
+    text-align: center; }
+
+.industries_description h4 {
+  font-size: 21px;
+  font-weight: 700;
+  margin: 5px 0 20px; }
