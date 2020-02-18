@@ -683,3 +683,80 @@ i {
     margin: 5px 0 20px;
   }
 }
+/*Values*/
+.section_values {
+  background: #f9fafd;
+  padding: 75px 0;
+}
+.values {
+  display: flex;
+  text-align: center;
+}
+.values_item {
+  flex: 1 1 1 0;
+  padding: 30px;
+}
+.values_suptitle {
+  h3 {
+    @include heading;
+  }
+}
+.values_subtitle {
+  padding: 20px 0 0;
+  margin: 0 0 22.4px;
+  h4 {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 700;
+  }
+}
+.values_title {
+  h4 {
+    font-size: 21px;
+    font-weight: 700;
+    margin: 8px 0 20px;
+  }
+}
+.values_description {
+  p {
+    color: #7a7a7a;
+    font-weight: 500;
+    margin: 0 0 16px;
+  }
+}
+/*Team*/
+.section_team {
+  padding: 75px 0;
+}
+.team {
+  text-align: center;
+  display: flex;
+  padding: 40px 0 0;
+}
+.team_title {
+  h3 {
+    @include heading;
+  }
+}
+.team_item {
+  flex: 1 1 0;
+  img {
+    border-radius: 150px;
+  }
+}
+.team_member {
+  padding-top: 8px;
+  h4 {
+    color: #000000;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: $family_Varela;
+  }
+}
+.direction {
+  p {
+    font-size: 14px;
+    color: #7a7a7a;
+    margin: 0 0 22.4px;
+  }
+}

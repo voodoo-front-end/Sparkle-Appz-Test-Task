@@ -755,3 +755,87 @@ i {
   font-size: 21px;
   font-weight: 700;
   margin: 5px 0 20px; }
+
+/*Values*/
+.section_values {
+  background: #f9fafd;
+  padding: 75px 0; }
+
+.values {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center; }
+
+.values_item {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 1 0;
+  flex: 1 1 1 0;
+  padding: 30px; }
+
+.values_suptitle h3 {
+  font-size: 42px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px;
+  width: 100%;
+  text-align: center; }
+
+.values_subtitle {
+  padding: 20px 0 0;
+  margin: 0 0 22.4px; }
+  .values_subtitle h4 {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 700; }
+
+.values_title h4 {
+  font-size: 21px;
+  font-weight: 700;
+  margin: 8px 0 20px; }
+
+.values_description p {
+  color: #7a7a7a;
+  font-weight: 500;
+  margin: 0 0 16px; }
+
+/*Team*/
+.section_team {
+  padding: 75px 0; }
+
+.team {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px 0 0; }
+
+.team_title h3 {
+  font-size: 42px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px;
+  width: 100%;
+  text-align: center; }
+
+.team_item {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 0px;
+  flex: 1 1 0; }
+  .team_item img {
+    border-radius: 150px; }
+
+.team_member {
+  padding-top: 8px; }
+  .team_member h4 {
+    color: #000000;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Varela Round", sans-serif; }
+
+.direction p {
+  font-size: 14px;
+  color: #7a7a7a;
+  margin: 0 0 22.4px; }
